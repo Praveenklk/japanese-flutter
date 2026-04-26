@@ -1,0 +1,3377 @@
+[
+  {
+    "id": 1,
+    "kanji": "一",
+    "meaning": "one",
+    "strokes": 1,
+    "radical": "一",
+    "jlpt": "N5",
+    "frequency": 1,
+    "onyomi": ["イチ", "イツ"],
+    "kunyomi": ["ひと"],
+    "examples": [
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning": "one person / alone"
+      },
+      {
+        "word": "一日",
+        "reading": "いちにち",
+        "meaning": "one day"
+      }
+    ],
+    "description": "一 means one. It's the simplest kanji with just one stroke.",
+    "memoryHint": "Picture it as a single finger holding up the number one.",
+    "mnemonic": "One horizontal line = number one.",
+    "composition": "Single stroke",
+    "similarKanji": ["二", "三"],
+    "tags": ["number", "basic"]
+  },
+  {
+    "id": 2,
+    "kanji": "日",
+    "meaning": "sun / day",
+    "strokes": 4,
+    "radical": "日",
+    "jlpt": "N5",
+    "frequency": 2,
+    "onyomi": ["ニチ", "ジツ"],
+    "kunyomi": ["ひ", "か"],
+    "examples": [
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Japan"
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "today"
+      },
+      {
+        "word": "日曜日",
+        "reading": "にちようび",
+        "meaning": "Sunday"
+      }
+    ],
+    "description": "日 represents the sun or a day. It looks like a window with the sun shining through.",
+    "memoryHint": "Imagine a square window with a sun inside it.",
+    "mnemonic": "A square with a line in the middle looks like a window showing the sun.",
+    "composition": "日 radical",
+    "similarKanji": ["目", "白"],
+    "tags": ["nature", "time", "basic"]
+  },
+  {
+    "id": 3,
+    "kanji": "人",
+    "meaning": "person / human",
+    "strokes": 2,
+    "radical": "人",
+    "jlpt": "N5",
+    "frequency": 3,
+    "onyomi": ["ジン", "ニン"],
+    "kunyomi": ["ひと"],
+    "examples": [
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "meaning": "Japanese person"
+      },
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "meaning": "one person"
+      },
+      {
+        "word": "人口",
+        "reading": "じんこう",
+        "meaning": "population"
+      }
+    ],
+    "description": "人 represents a person standing with legs apart.",
+    "memoryHint": "Looks like a person walking or standing.",
+    "mnemonic": "Two legs walking = a person.",
+    "composition": "人 radical",
+    "similarKanji": ["入", "八"],
+    "tags": ["human", "basic"]
+  },
+  {
+    "id": 4,
+    "kanji": "大",
+    "meaning": "big / large",
+    "strokes": 3,
+    "radical": "大",
+    "jlpt": "N5",
+    "frequency": 4,
+    "onyomi": ["ダイ", "タイ"],
+    "kunyomi": ["おお"],
+    "examples": [
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "meaning": "big / large"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "university"
+      },
+      {
+        "word": "大好き",
+        "reading": "だいすき",
+        "meaning": "love very much"
+      }
+    ],
+    "description": "大 looks like a person with arms outstretched to show how big something is.",
+    "memoryHint": "A person stretching arms wide to show 'big'.",
+    "mnemonic": "Person (人) with arms wide open = BIG!",
+    "composition": "一 + 人",
+    "similarKanji": ["太", "犬"],
+    "tags": ["size", "basic"]
+  },
+  {
+    "id": 5,
+    "kanji": "小",
+    "meaning": "small / little",
+    "strokes": 3,
+    "radical": "小",
+    "jlpt": "N5",
+    "frequency": 5,
+    "onyomi": ["ショウ"],
+    "kunyomi": ["ちい", "こ", "お"],
+    "examples": [
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "meaning": "small / little"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "meaning": "elementary school"
+      },
+      {
+        "word": "小説",
+        "reading": "しょうせつ",
+        "meaning": "novel"
+      }
+    ],
+    "description": "小 shows three small marks, representing something tiny.",
+    "memoryHint": "Three small droplets or grains of rice.",
+    "mnemonic": "Three small dots = something small.",
+    "composition": "丨 + 八",
+    "similarKanji": ["少", "水"],
+    "tags": ["size", "basic"]
+  },
+  {
+    "id": 6,
+    "kanji": "中",
+    "meaning": "middle / center",
+    "strokes": 4,
+    "radical": "丨",
+    "jlpt": "N5",
+    "frequency": 6,
+    "onyomi": ["チュウ"],
+    "kunyomi": ["なか"],
+    "examples": [
+      {
+        "word": "中国",
+        "reading": "ちゅうごく",
+        "meaning": "China"
+      },
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": "Japanese language"
+      },
+      {
+        "word": "中学生",
+        "reading": "ちゅうがくせい",
+        "meaning": "middle school student"
+      }
+    ],
+    "description": "中 shows a line going through the middle of a box.",
+    "memoryHint": "A target with an arrow through the center.",
+    "mnemonic": "Box with line through middle = center.",
+    "composition": "口 + 丨",
+    "similarKanji": ["申", "由"],
+    "tags": ["position", "basic"]
+  },
+  {
+    "id": 7,
+    "kanji": "年",
+    "meaning": "year / age",
+    "strokes": 6,
+    "radical": "干",
+    "jlpt": "N5",
+    "frequency": 7,
+    "onyomi": ["ネン"],
+    "kunyomi": ["とし"],
+    "examples": [
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "meaning": "this year"
+      },
+      {
+        "word": "去年",
+        "reading": "きょねん",
+        "meaning": "last year"
+      },
+      {
+        "word": "年生",
+        "reading": "ねんせい",
+        "meaning": "school year"
+      }
+    ],
+    "description": "年 originally depicted a person carrying harvested grain on their shoulders, representing a year's harvest.",
+    "memoryHint": "Think of someone carrying the harvest at year's end.",
+    "mnemonic": "Person (千) carrying grain = end of year harvest.",
+    "composition": "千 + 一",
+    "similarKanji": ["手", "平"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 8,
+    "kanji": "本",
+    "meaning": "book / origin / main",
+    "strokes": 5,
+    "radical": "木",
+    "jlpt": "N5",
+    "frequency": 8,
+    "onyomi": ["ホン"],
+    "kunyomi": ["もと"],
+    "examples": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": "Japanese language"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "meaning": "Japan"
+      },
+      {
+        "word": "本屋",
+        "reading": "ほんや",
+        "meaning": "bookstore"
+      }
+    ],
+    "description": "本 shows a tree (木) with a mark at the bottom indicating the root or origin.",
+    "memoryHint": "A tree with roots showing its origin.",
+    "mnemonic": "Tree (木) with roots = origin/book (fundamental).",
+    "composition": "木 + 一",
+    "similarKanji": ["木", "未"],
+    "tags": ["object", "basic"]
+  },
+  {
+    "id": 9,
+    "kanji": "月",
+    "meaning": "moon / month",
+    "strokes": 4,
+    "radical": "月",
+    "jlpt": "N5",
+    "frequency": 9,
+    "onyomi": ["ゲツ", "ガツ"],
+    "kunyomi": ["つき"],
+    "examples": [
+      {
+        "word": "月曜日",
+        "reading": "げつようび",
+        "meaning": "Monday"
+      },
+      {
+        "word": "一月",
+        "reading": "いちがつ",
+        "meaning": "January"
+      },
+      {
+        "word": "月見",
+        "reading": "つきみ",
+        "meaning": "moon viewing"
+      }
+    ],
+    "description": "月 represents the crescent moon shape.",
+    "memoryHint": "Looks like a crescent moon.",
+    "mnemonic": "Crescent shape = moon/month.",
+    "composition": "月 radical",
+    "similarKanji": ["日", "目"],
+    "tags": ["nature", "time", "basic"]
+  },
+  {
+    "id": 10,
+    "kanji": "火",
+    "meaning": "fire",
+    "strokes": 4,
+    "radical": "火",
+    "jlpt": "N5",
+    "frequency": 10,
+    "onyomi": ["カ"],
+    "kunyomi": ["ひ"],
+    "examples": [
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "meaning": "Tuesday"
+      },
+      {
+        "word": "火事",
+        "reading": "かじ",
+        "meaning": "fire (accident)"
+      },
+      {
+        "word": "花火",
+        "reading": "はなび",
+        "meaning": "fireworks"
+      }
+    ],
+    "description": "火 depicts flames rising up.",
+    "memoryHint": "Looks like dancing flames.",
+    "mnemonic": "Flames rising = fire.",
+    "composition": "火 radical",
+    "similarKanji": ["大", "木"],
+    "tags": ["nature", "element", "basic"]
+  },
+  {
+    "id": 11,
+    "kanji": "水",
+    "meaning": "water",
+    "strokes": 4,
+    "radical": "水",
+    "jlpt": "N5",
+    "frequency": 11,
+    "onyomi": ["スイ"],
+    "kunyomi": ["みず"],
+    "examples": [
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "meaning": "Wednesday"
+      },
+      {
+        "word": "水泳",
+        "reading": "すいえい",
+        "meaning": "swimming"
+      },
+      {
+        "word": "水色",
+        "reading": "みずいろ",
+        "meaning": "light blue (water color)"
+      }
+    ],
+    "description": "水 shows flowing water with a central stream and splashes.",
+    "memoryHint": "Looks like flowing water with splashes.",
+    "mnemonic": "Stream with splashes = water.",
+    "composition": "水 radical",
+    "similarKanji": ["氷", "永"],
+    "tags": ["nature", "element", "basic"]
+  },
+  {
+    "id": 12,
+    "kanji": "木",
+    "meaning": "tree / wood",
+    "strokes": 4,
+    "radical": "木",
+    "jlpt": "N5",
+    "frequency": 12,
+    "onyomi": ["モク", "ボク"],
+    "kunyomi": ["き", "こ"],
+    "examples": [
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "meaning": "Thursday"
+      },
+      {
+        "word": "木の葉",
+        "reading": "このは",
+        "meaning": "tree leaf"
+      },
+      {
+        "word": "木材",
+        "reading": "もくざい",
+        "meaning": "lumber / timber"
+      }
+    ],
+    "description": "木 shows a tree with roots and branches.",
+    "memoryHint": "Looks like a tree with roots and branches.",
+    "mnemonic": "Tree with roots and branches = tree.",
+    "composition": "木 radical",
+    "similarKanji": ["本", "未"],
+    "tags": ["nature", "basic"]
+  },
+  {
+    "id": 13,
+    "kanji": "金",
+    "meaning": "gold / money / metal",
+    "strokes": 8,
+    "radical": "金",
+    "jlpt": "N5",
+    "frequency": 13,
+    "onyomi": ["キン", "コン"],
+    "kunyomi": ["かね", "かな"],
+    "examples": [
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "meaning": "Friday"
+      },
+      {
+        "word": "お金",
+        "reading": "おかね",
+        "meaning": "money"
+      },
+      {
+        "word": "金色",
+        "reading": "きんいろ",
+        "meaning": "gold color"
+      }
+    ],
+    "description": "金 shows a gold nugget being extracted from the ground.",
+    "memoryHint": "Imagine gold nuggets in the ground.",
+    "mnemonic": "Gold/metal extracted from ground.",
+    "composition": "金 radical",
+    "similarKanji": ["全", "釜"],
+    "tags": ["material", "basic"]
+  },
+  {
+    "id": 14,
+    "kanji": "土",
+    "meaning": "soil / earth",
+    "strokes": 3,
+    "radical": "土",
+    "jlpt": "N5",
+    "frequency": 14,
+    "onyomi": ["ド", "ト"],
+    "kunyomi": ["つち"],
+    "examples": [
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "meaning": "Saturday"
+      },
+      {
+        "word": "土地",
+        "reading": "とち",
+        "meaning": "land / plot"
+      },
+      {
+        "word": "土産",
+        "reading": "みやげ",
+        "meaning": "souvenir"
+      }
+    ],
+    "description": "土 shows a mound of earth or soil.",
+    "memoryHint": "Looks like a pile of soil.",
+    "mnemonic": "Mound of earth = soil.",
+    "composition": "土 radical",
+    "similarKanji": ["士", "王"],
+    "tags": ["nature", "element", "basic"]
+  },
+  {
+    "id": 15,
+    "kanji": "見",
+    "meaning": "see / look",
+    "strokes": 7,
+    "radical": "見",
+    "jlpt": "N5",
+    "frequency": 15,
+    "onyomi": ["ケン"],
+    "kunyomi": ["み"],
+    "examples": [
+      {
+        "word": "見る",
+        "reading": "みる",
+        "meaning": "to see / to look"
+      },
+      {
+        "word": "見学",
+        "reading": "けんがく",
+        "meaning": "observation / field trip"
+      },
+      {
+        "word": "意見",
+        "reading": "いけん",
+        "meaning": "opinion"
+      }
+    ],
+    "description": "見 shows an eye (目) on legs, representing someone going to see something.",
+    "memoryHint": "An eye on legs going to see something.",
+    "mnemonic": "Eye (目) with legs = going to see.",
+    "composition": "目 + 儿",
+    "similarKanji": ["貝", "現"],
+    "tags": ["action", "sense", "basic"]
+  },
+  {
+    "id": 16,
+    "kanji": "行",
+    "meaning": "go / conduct",
+    "strokes": 6,
+    "radical": "行",
+    "jlpt": "N5",
+    "frequency": 16,
+    "onyomi": ["コウ", "ギョウ"],
+    "kunyomi": ["い", "ゆ", "おこな"],
+    "examples": [
+      {
+        "word": "行く",
+        "reading": "いく",
+        "meaning": "to go"
+      },
+      {
+        "word": "銀行",
+        "reading": "ぎんこう",
+        "meaning": "bank"
+      },
+      {
+        "word": "行動",
+        "reading": "こうどう",
+        "meaning": "action / behavior"
+      }
+    ],
+    "description": "行 shows a crossroads where people go in different directions.",
+    "memoryHint": "A crossroads where people go.",
+    "mnemonic": "Crossroads = place where people go.",
+    "composition": "彳 + 丁",
+    "similarKanji": ["待", "往"],
+    "tags": ["action", "basic"]
+  },
+  {
+    "id": 17,
+    "kanji": "時",
+    "meaning": "time / hour",
+    "strokes": 10,
+    "radical": "日",
+    "jlpt": "N5",
+    "frequency": 17,
+    "onyomi": ["ジ"],
+    "kunyomi": ["とき"],
+    "examples": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time / hour"
+      },
+      {
+        "word": "時計",
+        "reading": "とけい",
+        "meaning": "clock / watch"
+      },
+      {
+        "word": "一時",
+        "reading": "いちじ",
+        "meaning": "one o'clock"
+      }
+    ],
+    "description": "時 combines sun (日) and temple (寺), indicating measuring time by the sun's position relative to temples.",
+    "memoryHint": "Temple measuring time by the sun.",
+    "mnemonic": "Sun (日) + temple (寺) = measuring time.",
+    "composition": "日 + 寺",
+    "similarKanji": ["待", "持"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 18,
+    "kanji": "生",
+    "meaning": "life / birth / raw",
+    "strokes": 5,
+    "radical": "生",
+    "jlpt": "N5",
+    "frequency": 18,
+    "onyomi": ["セイ", "ショウ"],
+    "kunyomi": ["い", "う", "なま", "は"],
+    "examples": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      },
+      {
+        "word": "生きる",
+        "reading": "いきる",
+        "meaning": "to live"
+      },
+      {
+        "word": "生まれる",
+        "reading": "うまれる",
+        "meaning": "to be born"
+      }
+    ],
+    "description": "生 shows a plant sprouting from the earth, representing life and growth.",
+    "memoryHint": "Plant sprouting from soil = new life.",
+    "mnemonic": "Plant sprouting = life/birth.",
+    "composition": "生 radical",
+    "similarKanji": ["牛", "王"],
+    "tags": ["life", "basic"]
+  },
+  {
+    "id": 19,
+    "kanji": "学",
+    "meaning": "study / learning",
+    "strokes": 8,
+    "radical": "子",
+    "jlpt": "N5",
+    "frequency": 19,
+    "onyomi": ["ガク"],
+    "kunyomi": ["まな"],
+    "examples": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "meaning": "student"
+      },
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "school"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "meaning": "university"
+      }
+    ],
+    "description": "学 shows a roof (宀) over a child (子) learning with hands (爻).",
+    "memoryHint": "Child under roof with books learning.",
+    "mnemonic": "Child (子) under roof (宀) learning = study.",
+    "composition": "子 + 冖 + 子",
+    "similarKanji": ["字", "宇"],
+    "tags": ["education", "basic"]
+  },
+  {
+    "id": 20,
+    "kanji": "校",
+    "meaning": "school",
+    "strokes": 10,
+    "radical": "木",
+    "jlpt": "N5",
+    "frequency": 20,
+    "onyomi": ["コウ"],
+    "kunyomi": ["こう"],
+    "examples": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "meaning": "school"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "meaning": "principal"
+      },
+      {
+        "word": "校舎",
+        "reading": "こうしゃ",
+        "meaning": "school building"
+      }
+    ],
+    "description": "校 combines tree (木) and cross (交), originally meaning to compare or examine, now used for school.",
+    "memoryHint": "Under the trees where students gather = school.",
+    "mnemonic": "Tree (木) + cross (交) = place of examination (school).",
+    "composition": "木 + 交",
+    "similarKanji": ["板", "枝"],
+    "tags": ["education", "building"]
+  },
+  {
+    "id": 21,
+    "kanji": "上",
+    "meaning": "up / above",
+    "strokes": 3,
+    "radical": "一",
+    "jlpt": "N5",
+    "frequency": 21,
+    "onyomi": ["ジョウ", "ショウ"],
+    "kunyomi": ["うえ", "あ", "のぼ"],
+    "examples": [
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "meaning": "skillful / good at"
+      },
+      {
+        "word": "上る",
+        "reading": "のぼる",
+        "meaning": "to climb / to go up"
+      },
+      {
+        "word": "以上",
+        "reading": "いじょう",
+        "meaning": "more than / above"
+      }
+    ],
+    "description": "上 shows something above a line.",
+    "memoryHint": "Arrow pointing upward.",
+    "mnemonic": "Something above the line = up/above.",
+    "composition": "卜 + 一",
+    "similarKanji": ["下", "土"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 22,
+    "kanji": "下",
+    "meaning": "down / below",
+    "strokes": 3,
+    "radical": "一",
+    "jlpt": "N5",
+    "frequency": 22,
+    "onyomi": ["カ", "ゲ"],
+    "kunyomi": ["した", "さ", "くだ", "お"],
+    "examples": [
+      {
+        "word": "下手",
+        "reading": "へた",
+        "meaning": "unskillful / poor at"
+      },
+      {
+        "word": "下る",
+        "reading": "くだる",
+        "meaning": "to descend / to go down"
+      },
+      {
+        "word": "以下",
+        "reading": "いか",
+        "meaning": "less than / below"
+      }
+    ],
+    "description": "下 shows something below a line.",
+    "memoryHint": "Arrow pointing downward.",
+    "mnemonic": "Something below the line = down/below.",
+    "composition": "一 + 卜",
+    "similarKanji": ["上", "不"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 23,
+    "kanji": "今",
+    "meaning": "now / present",
+    "strokes": 4,
+    "radical": "人",
+    "jlpt": "N5",
+    "frequency": 23,
+    "onyomi": ["コン", "キン"],
+    "kunyomi": ["いま"],
+    "examples": [
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "meaning": "today"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "meaning": "this month"
+      },
+      {
+        "word": "今晩",
+        "reading": "こんばん",
+        "meaning": "this evening / tonight"
+      }
+    ],
+    "description": "今 shows the present moment under a roof.",
+    "memoryHint": "The present moment captured under shelter.",
+    "mnemonic": "Present moment under roof = now.",
+    "composition": "人 + 一 + フ",
+    "similarKanji": ["令", "全"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 24,
+    "kanji": "気",
+    "meaning": "spirit / energy / air",
+    "strokes": 6,
+    "radical": "气",
+    "jlpt": "N5",
+    "frequency": 24,
+    "onyomi": ["キ", "ケ"],
+    "kunyomi": ["いき"],
+    "examples": [
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "meaning": "energy / health"
+      },
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "meaning": "weather"
+      },
+      {
+        "word": "人気",
+        "reading": "にんき",
+        "meaning": "popularity"
+      }
+    ],
+    "description": "気 shows rising steam or vapor, representing energy and spirit.",
+    "memoryHint": "Steam rising = energy/spirit.",
+    "mnemonic": "Rising steam = energy/spirit/air.",
+    "composition": "气 + メ",
+    "similarKanji": ["汽", "風"],
+    "tags": ["nature", "concept", "basic"]
+  },
+  {
+    "id": 25,
+    "kanji": "語",
+    "meaning": "language / word",
+    "strokes": 14,
+    "radical": "言",
+    "jlpt": "N5",
+    "frequency": 25,
+    "onyomi": ["ゴ"],
+    "kunyomi": ["かた"],
+    "examples": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "meaning": "Japanese language"
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "meaning": "English language"
+      },
+      {
+        "word": "語学",
+        "reading": "ごがく",
+        "meaning": "language study"
+      }
+    ],
+    "description": "語 combines words (言) and five (五) mouths (口), suggesting many people speaking.",
+    "memoryHint": "Many mouths speaking words = language.",
+    "mnemonic": "Words (言) + five (五) mouths (口) = language.",
+    "composition": "言 + 吾",
+    "similarKanji": ["話", "読"],
+    "tags": ["language", "basic"]
+  },
+  {
+    "id": 26,
+    "kanji": "出",
+    "meaning": "exit / go out",
+    "strokes": 5,
+    "radical": "凵",
+    "jlpt": "N5",
+    "frequency": 26,
+    "onyomi": ["シュツ"],
+    "kunyomi": ["で", "だ"],
+    "examples": [
+      {
+        "word": "出る",
+        "reading": "でる",
+        "meaning": "to exit / to appear"
+      },
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "meaning": "exit"
+      },
+      {
+        "word": "出発",
+        "reading": "しゅっぱつ",
+        "meaning": "departure"
+      }
+    ],
+    "description": "出 shows a plant growing out of the ground.",
+    "memoryHint": "Plant emerging from soil = coming out.",
+    "mnemonic": "Plant coming out of ground = exit/emerge.",
+    "composition": "山 + 凵",
+    "similarKanji": ["山", "世"],
+    "tags": ["action", "direction", "basic"]
+  },
+  {
+    "id": 27,
+    "kanji": "入",
+    "meaning": "enter / insert",
+    "strokes": 2,
+    "radical": "入",
+    "jlpt": "N5",
+    "frequency": 27,
+    "onyomi": ["ニュウ"],
+    "kunyomi": ["はい", "い"],
+    "examples": [
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "meaning": "to enter"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "meaning": "entrance"
+      },
+      {
+        "word": "入学",
+        "reading": "にゅうがく",
+        "meaning": "school enrollment"
+      }
+    ],
+    "description": "入 shows something going into a container.",
+    "memoryHint": "Arrow pointing inward.",
+    "mnemonic": "Something going in = enter.",
+    "composition": "入 radical",
+    "similarKanji": ["人", "八"],
+    "tags": ["action", "direction", "basic"]
+  },
+  {
+    "id": 28,
+    "kanji": "先",
+    "meaning": "previous / ahead / future",
+    "strokes": 6,
+    "radical": "儿",
+    "jlpt": "N5",
+    "frequency": 28,
+    "onyomi": ["セン"],
+    "kunyomi": ["さき"],
+    "examples": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "meaning": "teacher / doctor"
+      },
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "meaning": "last week"
+      },
+      {
+        "word": "先月",
+        "reading": "せんげつ",
+        "meaning": "last month"
+      }
+    ],
+    "description": "先 shows a person (儿) walking ahead with something in hand (土).",
+    "memoryHint": "Person walking ahead of others.",
+    "mnemonic": "Person (儿) walking ahead = previous/ahead.",
+    "composition": "土 + 儿",
+    "similarKanji": ["洗", "選"],
+    "tags": ["time", "position", "basic"]
+  },
+  {
+    "id": 29,
+    "kanji": "名",
+    "meaning": "name / reputation",
+    "strokes": 6,
+    "radical": "口",
+    "jlpt": "N5",
+    "frequency": 29,
+    "onyomi": ["メイ", "ミョウ"],
+    "kunyomi": ["な"],
+    "examples": [
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "meaning": "name"
+      },
+      {
+        "word": "有名",
+        "reading": "ゆうめい",
+        "meaning": "famous"
+      },
+      {
+        "word": "名字",
+        "reading": "みょうじ",
+        "meaning": "surname"
+      }
+    ],
+    "description": "名 combines evening (夕) and mouth (口), as in ancient times people announced names at evening gatherings.",
+    "memoryHint": "Announcing name with mouth in evening.",
+    "mnemonic": "Evening (夕) + mouth (口) = announcing name.",
+    "composition": "夕 + 口",
+    "similarKanji": ["各", "多"],
+    "tags": ["identity", "basic"]
+  },
+  {
+    "id": 30,
+    "kanji": "女",
+    "meaning": "woman / female",
+    "strokes": 3,
+    "radical": "女",
+    "jlpt": "N5",
+    "frequency": 30,
+    "onyomi": ["ジョ", "ニョ", "ニョウ"],
+    "kunyomi": ["おんな", "め"],
+    "examples": [
+      {
+        "word": "女の子",
+        "reading": "おんなのこ",
+        "meaning": "girl"
+      },
+      {
+        "word": "女子",
+        "reading": "じょし",
+        "meaning": "woman / female"
+      },
+      {
+        "word": "女性",
+        "reading": "じょせい",
+        "meaning": "woman / female"
+      }
+    ],
+    "description": "女 shows a woman kneeling or sitting politely.",
+    "memoryHint": "A woman sitting gracefully.",
+    "mnemonic": "Woman sitting politely.",
+    "composition": "女 radical",
+    "similarKanji": ["安", "好"],
+    "tags": ["gender", "human", "basic"]
+  },
+  {
+    "id": 31,
+    "kanji": "男",
+    "meaning": "man / male",
+    "strokes": 7,
+    "radical": "田",
+    "jlpt": "N5",
+    "frequency": 31,
+    "onyomi": ["ダン", "ナン"],
+    "kunyomi": ["おとこ"],
+    "examples": [
+      {
+        "word": "男の子",
+        "reading": "おとこのこ",
+        "meaning": "boy"
+      },
+      {
+        "word": "男子",
+        "reading": "だんし",
+        "meaning": "man / male"
+      },
+      {
+        "word": "男性",
+        "reading": "だんせい",
+        "meaning": "man / male"
+      }
+    ],
+    "description": "男 combines field (田) and strength (力), as men traditionally worked in fields.",
+    "memoryHint": "Strength working in fields = man.",
+    "mnemonic": "Field (田) + strength (力) = man.",
+    "composition": "田 + 力",
+    "similarKanji": ["町", "思"],
+    "tags": ["gender", "human", "basic"]
+  },
+  {
+    "id": 32,
+    "kanji": "子",
+    "meaning": "child",
+    "strokes": 3,
+    "radical": "子",
+    "jlpt": "N5",
+    "frequency": 32,
+    "onyomi": ["シ", "ス"],
+    "kunyomi": ["こ"],
+    "examples": [
+      {
+        "word": "子供",
+        "reading": "こども",
+        "meaning": "child"
+      },
+      {
+        "word": "女子",
+        "reading": "じょし",
+        "meaning": "woman / female"
+      },
+      {
+        "word": "電子",
+        "reading": "でんし",
+        "meaning": "electron"
+      }
+    ],
+    "description": "子 shows a baby with outstretched arms.",
+    "memoryHint": "Baby with arms outstretched.",
+    "mnemonic": "Baby with arms = child.",
+    "composition": "子 radical",
+    "similarKanji": ["了", "字"],
+    "tags": ["human", "family", "basic"]
+  },
+  {
+    "id": 33,
+    "kanji": "父",
+    "meaning": "father",
+    "strokes": 4,
+    "radical": "父",
+    "jlpt": "N5",
+    "frequency": 33,
+    "onyomi": ["フ"],
+    "kunyomi": ["ちち"],
+    "examples": [
+      {
+        "word": "父",
+        "reading": "ちち",
+        "meaning": "father (humble)"
+      },
+      {
+        "word": "お父さん",
+        "reading": "おとうさん",
+        "meaning": "father (polite)"
+      },
+      {
+        "word": "父母",
+        "reading": "ふぼ",
+        "meaning": "parents"
+      }
+    ],
+    "description": "父 shows a hand holding a rod or tool, representing authority.",
+    "memoryHint": "Hand holding rod = authority figure (father).",
+    "mnemonic": "Hand holding rod = father.",
+    "composition": "父 radical",
+    "similarKanji": ["交", "文"],
+    "tags": ["family", "human", "basic"]
+  },
+  {
+    "id": 34,
+    "kanji": "母",
+    "meaning": "mother",
+    "strokes": 5,
+    "radical": "母",
+    "jlpt": "N5",
+    "frequency": 34,
+    "onyomi": ["ボ"],
+    "kunyomi": ["はは"],
+    "examples": [
+      {
+        "word": "母",
+        "reading": "はは",
+        "meaning": "mother (humble)"
+      },
+      {
+        "word": "お母さん",
+        "reading": "おかあさん",
+        "meaning": "mother (polite)"
+      },
+      {
+        "word": "父母",
+        "reading": "ふぼ",
+        "meaning": "parents"
+      }
+    ],
+    "description": "母 shows a woman (女) with two dots representing breasts, emphasizing motherhood.",
+    "memoryHint": "Woman with breasts = mother.",
+    "mnemonic": "Woman (女) with breasts = mother.",
+    "composition": "女 + 丶丶",
+    "similarKanji": ["毎", "海"],
+    "tags": ["family", "human", "basic"]
+  },
+  {
+    "id": 35,
+    "kanji": "友",
+    "meaning": "friend",
+    "strokes": 4,
+    "radical": "又",
+    "jlpt": "N5",
+    "frequency": 35,
+    "onyomi": ["ユウ"],
+    "kunyomi": ["とも"],
+    "examples": [
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "meaning": "friend"
+      },
+      {
+        "word": "友人",
+        "reading": "ゆうじん",
+        "meaning": "friend"
+      },
+      {
+        "word": "友情",
+        "reading": "ゆうじょう",
+        "meaning": "friendship"
+      }
+    ],
+    "description": "友 shows two hands helping each other.",
+    "memoryHint": "Two hands shaking = friends.",
+    "mnemonic": "Two helping hands = friend.",
+    "composition": "ナ + 又",
+    "similarKanji": ["反", "取"],
+    "tags": ["relationship", "human", "basic"]
+  },
+  {
+    "id": 36,
+    "kanji": "口",
+    "meaning": "mouth",
+    "strokes": 3,
+    "radical": "口",
+    "jlpt": "N5",
+    "frequency": 36,
+    "onyomi": ["コウ", "ク"],
+    "kunyomi": ["くち"],
+    "examples": [
+      {
+        "word": "人口",
+        "reading": "じんこう",
+        "meaning": "population"
+      },
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "meaning": "exit"
+      },
+      {
+        "word": "口座",
+        "reading": "こうざ",
+        "meaning": "bank account"
+      }
+    ],
+    "description": "口 represents the shape of a mouth.",
+    "memoryHint": "Square mouth opening.",
+    "mnemonic": "Square shape = mouth.",
+    "composition": "口 radical",
+    "similarKanji": ["日", "中"],
+    "tags": ["body", "basic"]
+  },
+  {
+    "id": 37,
+    "kanji": "目",
+    "meaning": "eye",
+    "strokes": 5,
+    "radical": "目",
+    "jlpt": "N5",
+    "frequency": 37,
+    "onyomi": ["モク"],
+    "kunyomi": ["め"],
+    "examples": [
+      {
+        "word": "目",
+        "reading": "め",
+        "meaning": "eye"
+      },
+      {
+        "word": "目的",
+        "reading": "もくてき",
+        "meaning": "purpose / goal"
+      },
+      {
+        "word": "注目",
+        "reading": "ちゅうもく",
+        "meaning": "attention / notice"
+      }
+    ],
+    "description": "目 shows an eye with eyelashes.",
+    "memoryHint": "Eye with horizontal eyelashes.",
+    "mnemonic": "Eye with lashes = eye.",
+    "composition": "目 radical",
+    "similarKanji": ["日", "自"],
+    "tags": ["body", "sense", "basic"]
+  },
+  {
+    "id": 38,
+    "kanji": "耳",
+    "meaning": "ear",
+    "strokes": 6,
+    "radical": "耳",
+    "jlpt": "N5",
+    "frequency": 38,
+    "onyomi": ["ジ"],
+    "kunyomi": ["みみ"],
+    "examples": [
+      {
+        "word": "耳",
+        "reading": "みみ",
+        "meaning": "ear"
+      },
+      {
+        "word": "耳鼻科",
+        "reading": "じびか",
+        "meaning": "otorhinolaryngology (ENT)"
+      }
+    ],
+    "description": "耳 shows the shape of an ear.",
+    "memoryHint": "Shape of an ear.",
+    "mnemonic": "Ear shape = ear.",
+    "composition": "耳 radical",
+    "similarKanji": ["取", "聞"],
+    "tags": ["body", "sense", "basic"]
+  },
+  {
+    "id": 39,
+    "kanji": "手",
+    "meaning": "hand",
+    "strokes": 4,
+    "radical": "手",
+    "jlpt": "N5",
+    "frequency": 39,
+    "onyomi": ["シュ"],
+    "kunyomi": ["て"],
+    "examples": [
+      {
+        "word": "手",
+        "reading": "て",
+        "meaning": "hand"
+      },
+      {
+        "word": "手紙",
+        "reading": "てがみ",
+        "meaning": "letter"
+      },
+      {
+        "word": "選手",
+        "reading": "せんしゅ",
+        "meaning": "player / athlete"
+      }
+    ],
+    "description": "手 shows the shape of a hand with fingers.",
+    "memoryHint": "Hand with fingers.",
+    "mnemonic": "Hand shape with fingers.",
+    "composition": "手 radical",
+    "similarKanji": ["毛", "年"],
+    "tags": ["body", "basic"]
+  },
+  {
+    "id": 40,
+    "kanji": "足",
+    "meaning": "foot / leg / sufficient",
+    "strokes": 7,
+    "radical": "足",
+    "jlpt": "N5",
+    "frequency": 40,
+    "onyomi": ["ソク"],
+    "kunyomi": ["あし", "た"],
+    "examples": [
+      {
+        "word": "足",
+        "reading": "あし",
+        "meaning": "foot / leg"
+      },
+      {
+        "word": "足りる",
+        "reading": "たりる",
+        "meaning": "to be sufficient"
+      },
+      {
+        "word": "満足",
+        "reading": "まんぞく",
+        "meaning": "satisfaction"
+      }
+    ],
+    "description": "足 shows a person standing with emphasis on the foot.",
+    "memoryHint": "Person standing on foot.",
+    "mnemonic": "Person with foot = foot/leg.",
+    "composition": "口 + 止",
+    "similarKanji": ["走", "定"],
+    "tags": ["body", "basic"]
+  },
+  {
+    "id": 41,
+    "kanji": "山",
+    "meaning": "mountain",
+    "strokes": 3,
+    "radical": "山",
+    "jlpt": "N5",
+    "frequency": 41,
+    "onyomi": ["サン"],
+    "kunyomi": ["やま"],
+    "examples": [
+      {
+        "word": "山",
+        "reading": "やま",
+        "meaning": "mountain"
+      },
+      {
+        "word": "火山",
+        "reading": "かざん",
+        "meaning": "volcano"
+      },
+      {
+        "word": "富士山",
+        "reading": "ふじさん",
+        "meaning": "Mount Fuji"
+      }
+    ],
+    "description": "山 shows three mountain peaks.",
+    "memoryHint": "Three mountain peaks.",
+    "mnemonic": "Three peaks = mountain.",
+    "composition": "山 radical",
+    "similarKanji": ["出", "凶"],
+    "tags": ["nature", "geography", "basic"]
+  },
+  {
+    "id": 42,
+    "kanji": "川",
+    "meaning": "river",
+    "strokes": 3,
+    "radical": "川",
+    "jlpt": "N5",
+    "frequency": 42,
+    "onyomi": ["セン"],
+    "kunyomi": ["かわ"],
+    "examples": [
+      {
+        "word": "川",
+        "reading": "かわ",
+        "meaning": "river"
+      },
+      {
+        "word": "河川",
+        "reading": "かせん",
+        "meaning": "rivers"
+      }
+    ],
+    "description": "川 shows flowing water.",
+    "memoryHint": "Three streams of flowing water.",
+    "mnemonic": "Flowing streams = river.",
+    "composition": "川 radical",
+    "similarKanji": ["州", "水"],
+    "tags": ["nature", "geography", "basic"]
+  },
+  {
+    "id": 43,
+    "kanji": "田",
+    "meaning": "rice field",
+    "strokes": 5,
+    "radical": "田",
+    "jlpt": "N5",
+    "frequency": 43,
+    "onyomi": ["デン"],
+    "kunyomi": ["た"],
+    "examples": [
+      {
+        "word": "田んぼ",
+        "reading": "たんぼ",
+        "meaning": "rice field"
+      },
+      {
+        "word": "田中",
+        "reading": "たなか",
+        "meaning": "Tanaka (common surname)"
+      },
+      {
+        "word": "田舎",
+        "reading": "いなか",
+        "meaning": "countryside"
+      }
+    ],
+    "description": "田 shows a rice field divided into sections.",
+    "memoryHint": "Divided rice field.",
+    "mnemonic": "Divided field = rice field.",
+    "composition": "田 radical",
+    "similarKanji": ["由", "甲"],
+    "tags": ["nature", "agriculture", "basic"]
+  },
+  {
+    "id": 44,
+    "kanji": "車",
+    "meaning": "car / vehicle",
+    "strokes": 7,
+    "radical": "車",
+    "jlpt": "N5",
+    "frequency": 44,
+    "onyomi": ["シャ"],
+    "kunyomi": ["くるま"],
+    "examples": [
+      {
+        "word": "車",
+        "reading": "くるま",
+        "meaning": "car / vehicle"
+      },
+      {
+        "word": "自動車",
+        "reading": "じどうしゃ",
+        "meaning": "automobile"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      }
+    ],
+    "description": "車 shows a cart with wheels.",
+    "memoryHint": "Cart with wheels.",
+    "mnemonic": "Cart with wheels = vehicle.",
+    "composition": "車 radical",
+    "similarKanji": ["東", "楽"],
+    "tags": ["transport", "object", "basic"]
+  },
+  {
+    "id": 45,
+    "kanji": "電",
+    "meaning": "electricity",
+    "strokes": 13,
+    "radical": "雨",
+    "jlpt": "N5",
+    "frequency": 45,
+    "onyomi": ["デン"],
+    "kunyomi": ["でん"],
+    "examples": [
+      {
+        "word": "電気",
+        "reading": "でんき",
+        "meaning": "electricity / light"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "meaning": "train"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning": "telephone"
+      }
+    ],
+    "description": "電 combines rain (雨) and lightning (申), representing electricity.",
+    "memoryHint": "Lightning in rain = electricity.",
+    "mnemonic": "Rain (雨) + lightning (申) = electricity.",
+    "composition": "雨 + 申",
+    "similarKanji": ["雷", "雲"],
+    "tags": ["science", "modern", "basic"]
+  },
+  {
+    "id": 46,
+    "kanji": "話",
+    "meaning": "talk / story",
+    "strokes": 13,
+    "radical": "言",
+    "jlpt": "N5",
+    "frequency": 46,
+    "onyomi": ["ワ"],
+    "kunyomi": ["はな", "はなし"],
+    "examples": [
+      {
+        "word": "話す",
+        "reading": "はなす",
+        "meaning": "to speak / to talk"
+      },
+      {
+        "word": "会話",
+        "reading": "かいわ",
+        "meaning": "conversation"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "meaning": "telephone"
+      }
+    ],
+    "description": "話 combines tongue (舌) and words (言), representing speaking.",
+    "memoryHint": "Tongue producing words = talk.",
+    "mnemonic": "Words (言) + tongue (舌) = talk.",
+    "composition": "言 + 舌",
+    "similarKanji": ["語", "読"],
+    "tags": ["communication", "basic"]
+  },
+  {
+    "id": 47,
+    "kanji": "聞",
+    "meaning": "hear / listen / ask",
+    "strokes": 14,
+    "radical": "耳",
+    "jlpt": "N5",
+    "frequency": 47,
+    "onyomi": ["ブン", "モン"],
+    "kunyomi": ["き"],
+    "examples": [
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "meaning": "to hear / to listen / to ask"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "newspaper"
+      },
+      {
+        "word": "聞こえる",
+        "reading": "きこえる",
+        "meaning": "to be audible"
+      }
+    ],
+    "description": "聞 shows an ear (耳) at a gate (門), listening to what's outside.",
+    "memoryHint": "Ear at gate listening.",
+    "mnemonic": "Ear (耳) at gate (門) = listening/hearing.",
+    "composition": "門 + 耳",
+    "similarKanji": ["問", "開"],
+    "tags": ["sense", "communication", "basic"]
+  },
+  {
+    "id": 48,
+    "kanji": "食",
+    "meaning": "eat / food",
+    "strokes": 9,
+    "radical": "食",
+    "jlpt": "N5",
+    "frequency": 48,
+    "onyomi": ["ショク", "ジキ"],
+    "kunyomi": ["た", "く"],
+    "examples": [
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "meaning": "to eat"
+      },
+      {
+        "word": "食事",
+        "reading": "しょくじ",
+        "meaning": "meal"
+      },
+      {
+        "word": "食堂",
+        "reading": "しょくどう",
+        "meaning": "dining room / cafeteria"
+      }
+    ],
+    "description": "食 shows a person bending over a bowl of rice.",
+    "memoryHint": "Person eating from bowl.",
+    "mnemonic": "Person with bowl = eat/food.",
+    "composition": "食 radical",
+    "similarKanji": ["飯", "飲"],
+    "tags": ["action", "food", "basic"]
+  },
+  {
+    "id": 49,
+    "kanji": "飲",
+    "meaning": "drink",
+    "strokes": 12,
+    "radical": "食",
+    "jlpt": "N5",
+    "frequency": 49,
+    "onyomi": ["イン"],
+    "kunyomi": ["の"],
+    "examples": [
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "meaning": "to drink"
+      },
+      {
+        "word": "飲み物",
+        "reading": "のみもの",
+        "meaning": "drink / beverage"
+      },
+      {
+        "word": "飲食",
+        "reading": "いんしょく",
+        "meaning": "eating and drinking"
+      }
+    ],
+    "description": "飲 combines eat (食) and lack (欠), originally meaning to drink when food is lacking.",
+    "memoryHint": "Drinking when lacking food.",
+    "mnemonic": "Eat (食) + lack (欠) = drink.",
+    "composition": "食 + 欠",
+    "similarKanji": ["飯", "館"],
+    "tags": ["action", "food", "basic"]
+  },
+  {
+    "id": 50,
+    "kanji": "読",
+    "meaning": "read",
+    "strokes": 14,
+    "radical": "言",
+    "jlpt": "N5",
+    "frequency": 50,
+    "onyomi": ["ドク", "トク", "トウ"],
+    "kunyomi": ["よ"],
+    "examples": [
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "meaning": "to read"
+      },
+      {
+        "word": "読書",
+        "reading": "どくしょ",
+        "meaning": "reading"
+      },
+      {
+        "word": "読み方",
+        "reading": "よみかた",
+        "meaning": "way of reading"
+      }
+    ],
+    "description": "読 combines words (言) and sell (売), as reading was originally associated with interpreting merchant accounts.",
+    "memoryHint": "Reading merchant's words.",
+    "mnemonic": "Words (言) + sell (売) = reading (accounts).",
+    "composition": "言 + 売",
+    "similarKanji": ["続", "売"],
+    "tags": ["action", "education", "basic"]
+  },
+  {
+    "id": 51,
+    "kanji": "書",
+    "meaning": "write",
+    "strokes": 10,
+    "radical": "曰",
+    "jlpt": "N5",
+    "frequency": 51,
+    "onyomi": ["ショ"],
+    "kunyomi": ["か"],
+    "examples": [
+      {
+        "word": "書く",
+        "reading": "かく",
+        "meaning": "to write"
+      },
+      {
+        "word": "辞書",
+        "reading": "じしょ",
+        "meaning": "dictionary"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "meaning": "library"
+      }
+    ],
+    "description": "書 shows a hand holding a brush over paper.",
+    "memoryHint": "Hand holding brush writing.",
+    "mnemonic": "Hand with brush = write.",
+    "composition": "聿 + 曰",
+    "similarKanji": ["画", "昼"],
+    "tags": ["action", "education", "basic"]
+  },
+  {
+    "id": 52,
+    "kanji": "来",
+    "meaning": "come",
+    "strokes": 7,
+    "radical": "木",
+    "jlpt": "N5",
+    "frequency": 52,
+    "onyomi": ["ライ"],
+    "kunyomi": ["く", "きた", "き"],
+    "examples": [
+      {
+        "word": "来る",
+        "reading": "くる",
+        "meaning": "to come"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "meaning": "next week"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "meaning": "next year"
+      }
+    ],
+    "description": "来 shows a person arriving between trees.",
+    "memoryHint": "Person arriving through trees.",
+    "mnemonic": "Person between trees = coming.",
+    "composition": "一 + 米",
+    "similarKanji": ["米", "東"],
+    "tags": ["action", "movement", "basic"]
+  },
+  {
+    "id": 53,
+    "kanji": "休",
+    "meaning": "rest / holiday",
+    "strokes": 6,
+    "radical": "人",
+    "jlpt": "N5",
+    "frequency": 53,
+    "onyomi": ["キュウ"],
+    "kunyomi": ["やす"],
+    "examples": [
+      {
+        "word": "休む",
+        "reading": "やすむ",
+        "meaning": "to rest / to take a break"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "meaning": "rest / holiday / vacation"
+      },
+      {
+        "word": "休日",
+        "reading": "きゅうじつ",
+        "meaning": "holiday / day off"
+      }
+    ],
+    "description": "休 shows a person (人) resting against a tree (木).",
+    "memoryHint": "Person leaning against tree resting.",
+    "mnemonic": "Person (人) + tree (木) = rest.",
+    "composition": "亻 + 木",
+    "similarKanji": ["体", "林"],
+    "tags": ["action", "state", "basic"]
+  },
+  {
+    "id": 54,
+    "kanji": "駅",
+    "meaning": "station",
+    "strokes": 14,
+    "radical": "馬",
+    "jlpt": "N5",
+    "frequency": 54,
+    "onyomi": ["エキ"],
+    "kunyomi": ["えき"],
+    "examples": [
+      {
+        "word": "駅",
+        "reading": "えき",
+        "meaning": "station"
+      },
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "meaning": "in front of station"
+      },
+      {
+        "word": "東京駅",
+        "reading": "とうきょうえき",
+        "meaning": "Tokyo Station"
+      }
+    ],
+    "description": "駅 combines horse (馬) and exchange (尺), originally a place to change horses.",
+    "memoryHint": "Place to change horses = station.",
+    "mnemonic": "Horse (馬) + exchange (尺) = station.",
+    "composition": "馬 + 尺",
+    "similarKanji": ["駆", "駐"],
+    "tags": ["transport", "place", "basic"]
+  },
+  {
+    "id": 55,
+    "kanji": "店",
+    "meaning": "shop / store",
+    "strokes": 8,
+    "radical": "广",
+    "jlpt": "N5",
+    "frequency": 55,
+    "onyomi": ["テン"],
+    "kunyomi": ["みせ"],
+    "examples": [
+      {
+        "word": "店",
+        "reading": "みせ",
+        "meaning": "shop / store"
+      },
+      {
+        "word": "本屋",
+        "reading": "ほんや",
+        "meaning": "bookstore"
+      },
+      {
+        "word": "店員",
+        "reading": "てんいん",
+        "meaning": "shop staff"
+      }
+    ],
+    "description": "店 shows a building (广) with goods inside (占).",
+    "memoryHint": "Building with goods = shop.",
+    "mnemonic": "Building (广) + goods (占) = shop.",
+    "composition": "广 + 占",
+    "similarKanji": ["広", "庭"],
+    "tags": ["business", "place", "basic"]
+  },
+  {
+    "id": 56,
+    "kanji": "町",
+    "meaning": "town / street",
+    "strokes": 7,
+    "radical": "田",
+    "jlpt": "N5",
+    "frequency": 56,
+    "onyomi": ["チョウ"],
+    "kunyomi": ["まち"],
+    "examples": [
+      {
+        "word": "町",
+        "reading": "まち",
+        "meaning": "town"
+      },
+      {
+        "word": "市町村",
+        "reading": "しちょうそん",
+        "meaning": "municipalities"
+      },
+      {
+        "word": "町長",
+        "reading": "ちょうちょう",
+        "meaning": "town mayor"
+      }
+    ],
+    "description": "町 combines field (田) and street (丁), representing a town with fields and streets.",
+    "memoryHint": "Fields with streets = town.",
+    "mnemonic": "Field (田) + street (丁) = town.",
+    "composition": "田 + 丁",
+    "similarKanji": ["男", "思"],
+    "tags": ["place", "geography", "basic"]
+  },
+  {
+    "id": 57,
+    "kanji": "外",
+    "meaning": "outside / foreign",
+    "strokes": 5,
+    "radical": "夕",
+    "jlpt": "N5",
+    "frequency": 57,
+    "onyomi": ["ガイ", "ゲ"],
+    "kunyomi": ["そと", "ほか", "はず"],
+    "examples": [
+      {
+        "word": "外",
+        "reading": "そと",
+        "meaning": "outside"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "foreign country"
+      },
+      {
+        "word": "海外",
+        "reading": "かいがい",
+        "meaning": "overseas"
+      }
+    ],
+    "description": "外 shows evening (夕) and divination (卜), as divination was done outside at evening.",
+    "memoryHint": "Divination outside in evening.",
+    "mnemonic": "Evening (夕) + divination (卜) = outside.",
+    "composition": "夕 + 卜",
+    "similarKanji": ["名", "多"],
+    "tags": ["direction", "place", "basic"]
+  },
+  {
+    "id": 58,
+    "kanji": "間",
+    "meaning": "interval / space / between",
+    "strokes": 12,
+    "radical": "門",
+    "jlpt": "N5",
+    "frequency": 58,
+    "onyomi": ["カン", "ケン"],
+    "kunyomi": ["あいだ", "ま"],
+    "examples": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time / hour"
+      },
+      {
+        "word": "間",
+        "reading": "あいだ",
+        "meaning": "interval / space between"
+      },
+      {
+        "word": "人間",
+        "reading": "にんげん",
+        "meaning": "human being"
+      }
+    ],
+    "description": "間 shows a gate (門) with the sun (日) visible through it, representing space between.",
+    "memoryHint": "Sun seen through gate = space between.",
+    "mnemonic": "Gate (門) + sun (日) = interval/space.",
+    "composition": "門 + 日",
+    "similarKanji": ["聞", "問"],
+    "tags": ["space", "time", "basic"]
+  },
+  {
+    "id": 59,
+    "kanji": "家",
+    "meaning": "house / home / family",
+    "strokes": 10,
+    "radical": "宀",
+    "jlpt": "N5",
+    "frequency": 59,
+    "onyomi": ["カ", "ケ"],
+    "kunyomi": ["いえ", "や"],
+    "examples": [
+      {
+        "word": "家",
+        "reading": "いえ",
+        "meaning": "house / home"
+      },
+      {
+        "word": "家族",
+        "reading": "かぞく",
+        "meaning": "family"
+      },
+      {
+        "word": "家具",
+        "reading": "かぐ",
+        "meaning": "furniture"
+      }
+    ],
+    "description": "家 shows a roof (宀) over a pig (豕), as ancient houses kept livestock inside.",
+    "memoryHint": "House with pig inside.",
+    "mnemonic": "Roof (宀) + pig (豕) = house.",
+    "composition": "宀 + 豕",
+    "similarKanji": ["室", "安"],
+    "tags": ["building", "family", "basic"]
+  },
+  {
+    "id": 60,
+    "kanji": "会",
+    "meaning": "meeting / meet / association",
+    "strokes": 6,
+    "radical": "人",
+    "jlpt": "N5",
+    "frequency": 60,
+    "onyomi": ["カイ", "エ"],
+    "kunyomi": ["あ"],
+    "examples": [
+      {
+        "word": "会う",
+        "reading": "あう",
+        "meaning": "to meet"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "company / corporation"
+      },
+      {
+        "word": "会議",
+        "reading": "かいぎ",
+        "meaning": "meeting / conference"
+      }
+    ],
+    "description": "会 shows people coming together under a roof.",
+    "memoryHint": "People gathering under roof = meeting.",
+    "mnemonic": "Roof (一) + people gathering = meeting.",
+    "composition": "人 + 一 + 云",
+    "similarKanji": ["合", "今"],
+    "tags": ["social", "action", "basic"]
+  },
+  {
+    "id": 61,
+    "kanji": "社",
+    "meaning": "company / shrine / society",
+    "strokes": 7,
+    "radical": "示",
+    "jlpt": "N5",
+    "frequency": 61,
+    "onyomi": ["シャ"],
+    "kunyomi": ["やしろ"],
+    "examples": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "meaning": "company / corporation"
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "company president"
+      },
+      {
+        "word": "神社",
+        "reading": "じんじゃ",
+        "meaning": "Shinto shrine"
+      }
+    ],
+    "description": "社 combines earth (土) and altar (示), originally meaning earth altar or shrine.",
+    "memoryHint": "Earth altar = shrine/company.",
+    "mnemonic": "Earth (土) + altar (示) = shrine/company.",
+    "composition": "示 + 土",
+    "similarKanji": ["礼", "祖"],
+    "tags": ["business", "religion", "basic"]
+  },
+  {
+    "id": 62,
+    "kanji": "国",
+    "meaning": "country",
+    "strokes": 8,
+    "radical": "囗",
+    "jlpt": "N5",
+    "frequency": 62,
+    "onyomi": ["コク"],
+    "kunyomi": ["くに"],
+    "examples": [
+      {
+        "word": "国",
+        "reading": "くに",
+        "meaning": "country"
+      },
+      {
+        "word": "中国",
+        "reading": "ちゅうごく",
+        "meaning": "China"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "meaning": "foreign country"
+      }
+    ],
+    "description": "国 shows a boundary (囗) protecting jade (玉), representing a country protecting its treasures.",
+    "memoryHint": "Boundary protecting treasure = country.",
+    "mnemonic": "Boundary (囗) + jade (玉) = country.",
+    "composition": "囗 + 玉",
+    "similarKanji": ["回", "図"],
+    "tags": ["geography", "politics", "basic"]
+  },
+  {
+    "id": 63,
+    "kanji": "円",
+    "meaning": "circle / yen",
+    "strokes": 4,
+    "radical": "冂",
+    "jlpt": "N5",
+    "frequency": 63,
+    "onyomi": ["エン"],
+    "kunyomi": ["まる"],
+    "examples": [
+      {
+        "word": "円",
+        "reading": "えん",
+        "meaning": "yen (Japanese currency)"
+      },
+      {
+        "word": "円い",
+        "reading": "まるい",
+        "meaning": "round / circular"
+      },
+      {
+        "word": "千円",
+        "reading": "せんえん",
+        "meaning": "one thousand yen"
+      }
+    ],
+    "description": "円 shows a round shape, originally representing a round coin.",
+    "memoryHint": "Round coin shape.",
+    "mnemonic": "Round shape = circle/currency.",
+    "composition": "冂 + 丨 + 一",
+    "similarKanji": ["口", "四"],
+    "tags": ["shape", "money", "basic"]
+  },
+  {
+    "id": 64,
+    "kanji": "高",
+    "meaning": "high / tall / expensive",
+    "strokes": 10,
+    "radical": "高",
+    "jlpt": "N5",
+    "frequency": 64,
+    "onyomi": ["コウ"],
+    "kunyomi": ["たか"],
+    "examples": [
+      {
+        "word": "高い",
+        "reading": "たかい",
+        "meaning": "high / tall / expensive"
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "meaning": "high school"
+      },
+      {
+        "word": "最高",
+        "reading": "さいこう",
+        "meaning": "best / highest"
+      }
+    ],
+    "description": "高 shows a tall building with multiple stories.",
+    "memoryHint": "Tall building with stories.",
+    "mnemonic": "Tall building = high.",
+    "composition": "高 radical",
+    "similarKanji": ["京", "亭"],
+    "tags": ["size", "quality", "basic"]
+  },
+  {
+    "id": 65,
+    "kanji": "安",
+    "meaning": "cheap / peaceful",
+    "strokes": 6,
+    "radical": "宀",
+    "jlpt": "N5",
+    "frequency": 65,
+    "onyomi": ["アン"],
+    "kunyomi": ["やす"],
+    "examples": [
+      {
+        "word": "安い",
+        "reading": "やすい",
+        "meaning": "cheap / inexpensive"
+      },
+      {
+        "word": "安心",
+        "reading": "あんしん",
+        "meaning": "peace of mind / relief"
+      },
+      {
+        "word": "安全",
+        "reading": "あんぜん",
+        "meaning": "safety / security"
+      }
+    ],
+    "description": "安 shows a woman (女) under a roof (宀), representing peace and safety at home.",
+    "memoryHint": "Woman safe under roof = peaceful/cheap.",
+    "mnemonic": "Roof (宀) + woman (女) = peaceful/cheap.",
+    "composition": "宀 + 女",
+    "similarKanji": ["字", "守"],
+    "tags": ["price", "state", "basic"]
+  },
+  {
+    "id": 66,
+    "kanji": "新",
+    "meaning": "new",
+    "strokes": 13,
+    "radical": "斤",
+    "jlpt": "N5",
+    "frequency": 66,
+    "onyomi": ["シン"],
+    "kunyomi": ["あたら", "あら", "にい"],
+    "examples": [
+      {
+        "word": "新しい",
+        "reading": "あたらしい",
+        "meaning": "new"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "newspaper"
+      },
+      {
+        "word": "新年",
+        "reading": "しんねん",
+        "meaning": "New Year"
+      }
+    ],
+    "description": "新 combines stand (立), tree (木), and axe (斤), representing cutting down a tree to start something new.",
+    "memoryHint": "Cutting tree to make something new.",
+    "mnemonic": "Stand (立) + tree (木) + axe (斤) = new.",
+    "composition": "立 + 木 + 斤",
+    "similarKanji": ["親", "析"],
+    "tags": ["time", "quality", "basic"]
+  },
+  {
+    "id": 67,
+    "kanji": "古",
+    "meaning": "old",
+    "strokes": 5,
+    "radical": "口",
+    "jlpt": "N5",
+    "frequency": 67,
+    "onyomi": ["コ"],
+    "kunyomi": ["ふる"],
+    "examples": [
+      {
+        "word": "古い",
+        "reading": "ふるい",
+        "meaning": "old"
+      },
+      {
+        "word": "古代",
+        "reading": "こだい",
+        "meaning": "ancient times"
+      },
+      {
+        "word": "古本",
+        "reading": "ふるほん",
+        "meaning": "used book"
+      }
+    ],
+    "description": "古 shows ten (十) generations in the past (口), representing old age.",
+    "memoryHint": "Ten generations past = old.",
+    "mnemonic": "Ten (十) + generations (口) = old.",
+    "composition": "十 + 口",
+    "similarKanji": ["右", "石"],
+    "tags": ["time", "quality", "basic"]
+  },
+  {
+    "id": 68,
+    "kanji": "多",
+    "meaning": "many / much",
+    "strokes": 6,
+    "radical": "夕",
+    "jlpt": "N5",
+    "frequency": 68,
+    "onyomi": ["タ"],
+    "kunyomi": ["おお"],
+    "examples": [
+      {
+        "word": "多い",
+        "reading": "おおい",
+        "meaning": "many / much"
+      },
+      {
+        "word": "多分",
+        "reading": "たぶん",
+        "meaning": "probably / perhaps"
+      },
+      {
+        "word": "多数",
+        "reading": "たすう",
+        "meaning": "majority / large number"
+      }
+    ],
+    "description": "多 shows two evenings (夕夕), as evenings repeat many times.",
+    "memoryHint": "Many evenings = many.",
+    "mnemonic": "Two evenings (夕) = many.",
+    "composition": "夕 + 夕",
+    "similarKanji": ["夕", "名"],
+    "tags": ["quantity", "basic"]
+  },
+  {
+    "id": 69,
+    "kanji": "少",
+    "meaning": "few / little",
+    "strokes": 4,
+    "radical": "小",
+    "jlpt": "N5",
+    "frequency": 69,
+    "onyomi": ["ショウ"],
+    "kunyomi": ["すく", "すこ"],
+    "examples": [
+      {
+        "word": "少ない",
+        "reading": "すくない",
+        "meaning": "few / little"
+      },
+      {
+        "word": "少し",
+        "reading": "すこし",
+        "meaning": "a little / a few"
+      },
+      {
+        "word": "少女",
+        "reading": "しょうじょ",
+        "meaning": "girl / young lady"
+      }
+    ],
+    "description": "少 shows small (小) divided, emphasizing small quantity.",
+    "memoryHint": "Small divided = few.",
+    "mnemonic": "Small (小) divided = few.",
+    "composition": "小 + 丿",
+    "similarKanji": ["小", "沙"],
+    "tags": ["quantity", "basic"]
+  },
+  {
+    "id": 70,
+    "kanji": "前",
+    "meaning": "front / before",
+    "strokes": 9,
+    "radical": "刀",
+    "jlpt": "N5",
+    "frequency": 70,
+    "onyomi": ["ゼン"],
+    "kunyomi": ["まえ"],
+    "examples": [
+      {
+        "word": "前",
+        "reading": "まえ",
+        "meaning": "front / before"
+      },
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "meaning": "morning / a.m."
+      },
+      {
+        "word": "前回",
+        "reading": "ぜんかい",
+        "meaning": "previous time"
+      }
+    ],
+    "description": "前 shows a boat (舟) moving forward on water.",
+    "memoryHint": "Boat moving forward = front.",
+    "mnemonic": "Boat (舟) moving = front/before.",
+    "composition": "一 + 月 + 刂",
+    "similarKanji": ["煎", "剪"],
+    "tags": ["position", "time", "basic"]
+  },
+  {
+    "id": 71,
+    "kanji": "後",
+    "meaning": "behind / after / later",
+    "strokes": 9,
+    "radical": "彳",
+    "jlpt": "N5",
+    "frequency": 71,
+    "onyomi": ["ゴ", "コウ"],
+    "kunyomi": ["うし", "あと", "のち"],
+    "examples": [
+      {
+        "word": "後ろ",
+        "reading": "うしろ",
+        "meaning": "behind / back"
+      },
+      {
+        "word": "後で",
+        "reading": "あとで",
+        "meaning": "later / afterwards"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "meaning": "afternoon / p.m."
+      }
+    ],
+    "description": "後 shows someone walking (彳) and dragging feet (幺), being slow and behind.",
+    "memoryHint": "Slow walker falling behind.",
+    "mnemonic": "Walking (彳) + slow (幺) = behind/after.",
+    "composition": "彳 + 幺 + 夂",
+    "similarKanji": ["従", "役"],
+    "tags": ["position", "time", "basic"]
+  },
+  {
+    "id": 72,
+    "kanji": "左",
+    "meaning": "left",
+    "strokes": 5,
+    "radical": "工",
+    "jlpt": "N5",
+    "frequency": 72,
+    "onyomi": ["サ"],
+    "kunyomi": ["ひだり"],
+    "examples": [
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "meaning": "left"
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "meaning": "left and right"
+      }
+    ],
+    "description": "左 shows a hand (ナ) working (工), as most people work with their left hand supporting.",
+    "memoryHint": "Supporting hand = left.",
+    "mnemonic": "Hand (ナ) + work (工) = left.",
+    "composition": "ナ + 工",
+    "similarKanji": ["右", "友"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 73,
+    "kanji": "右",
+    "meaning": "right",
+    "strokes": 5,
+    "radical": "口",
+    "jlpt": "N5",
+    "frequency": 73,
+    "onyomi": ["ユウ", "ウ"],
+    "kunyomi": ["みぎ"],
+    "examples": [
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "meaning": "right"
+      },
+      {
+        "word": "左右",
+        "reading": "さゆう",
+        "meaning": "left and right"
+      }
+    ],
+    "description": "右 shows a hand (ナ) over a mouth (口), as right hand feeds the mouth.",
+    "memoryHint": "Hand feeding mouth = right.",
+    "mnemonic": "Hand (ナ) + mouth (口) = right.",
+    "composition": "ナ + 口",
+    "similarKanji": ["左", "石"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 74,
+    "kanji": "長",
+    "meaning": "long / leader",
+    "strokes": 8,
+    "radical": "長",
+    "jlpt": "N5",
+    "frequency": 74,
+    "onyomi": ["チョウ"],
+    "kunyomi": ["なが"],
+    "examples": [
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "meaning": "long"
+      },
+      {
+        "word": "社長",
+        "reading": "しゃちょう",
+        "meaning": "company president"
+      },
+      {
+        "word": "長さ",
+        "reading": "ながさ",
+        "meaning": "length"
+      }
+    ],
+    "description": "長 shows a person with long hair, representing length.",
+    "memoryHint": "Person with long hair.",
+    "mnemonic": "Person with long hair = long/leader.",
+    "composition": "長 radical",
+    "similarKanji": ["張", "帳"],
+    "tags": ["size", "position", "basic"]
+  },
+  {
+    "id": 75,
+    "kanji": "半",
+    "meaning": "half",
+    "strokes": 5,
+    "radical": "十",
+    "jlpt": "N5",
+    "frequency": 75,
+    "onyomi": ["ハン"],
+    "kunyomi": ["なか"],
+    "examples": [
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "meaning": "half"
+      },
+      {
+        "word": "半年",
+        "reading": "はんとし",
+        "meaning": "half year"
+      },
+      {
+        "word": "半島",
+        "reading": "はんとう",
+        "meaning": "peninsula"
+      }
+    ],
+    "description": "半 shows an ox (牛) divided in half.",
+    "memoryHint": "Ox divided in half.",
+    "mnemonic": "Ox (牛) divided = half.",
+    "composition": "八 + 牛",
+    "similarKanji": ["羊", "平"],
+    "tags": ["quantity", "basic"]
+  },
+  {
+    "id": 76,
+    "kanji": "分",
+    "meaning": "minute / understand / part",
+    "strokes": 4,
+    "radical": "刀",
+    "jlpt": "N5",
+    "frequency": 76,
+    "onyomi": ["ブン", "フン", "ブ"],
+    "kunyomi": ["わ"],
+    "examples": [
+      {
+        "word": "分かる",
+        "reading": "わかる",
+        "meaning": "to understand"
+      },
+      {
+        "word": "十分",
+        "reading": "じゅうぶん",
+        "meaning": "enough / sufficient"
+      },
+      {
+        "word": "分ける",
+        "reading": "わける",
+        "meaning": "to divide / to separate"
+      }
+    ],
+    "description": "分 shows a knife (刀) dividing something into eight (八) parts.",
+    "memoryHint": "Knife dividing into parts.",
+    "mnemonic": "Knife (刀) + eight (八) = divide/part.",
+    "composition": "八 + 刀",
+    "similarKanji": ["切", "公"],
+    "tags": ["time", "action", "basic"]
+  },
+  {
+    "id": 77,
+    "kanji": "時",
+    "meaning": "time / hour",
+    "strokes": 10,
+    "radical": "日",
+    "jlpt": "N5",
+    "frequency": 77,
+    "onyomi": ["ジ"],
+    "kunyomi": ["とき"],
+    "examples": [
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "meaning": "time / hour"
+      },
+      {
+        "word": "時計",
+        "reading": "とけい",
+        "meaning": "clock / watch"
+      },
+      {
+        "word": "一時",
+        "reading": "いちじ",
+        "meaning": "one o'clock"
+      }
+    ],
+    "description": "時 combines sun (日) and temple (寺), indicating measuring time by the sun's position relative to temples.",
+    "memoryHint": "Temple measuring time by the sun.",
+    "mnemonic": "Sun (日) + temple (寺) = measuring time.",
+    "composition": "日 + 寺",
+    "similarKanji": ["待", "持"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 78,
+    "kanji": "毎",
+    "meaning": "every",
+    "strokes": 6,
+    "radical": "毋",
+    "jlpt": "N5",
+    "frequency": 78,
+    "onyomi": ["マイ"],
+    "kunyomi": ["ごと"],
+    "examples": [
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "meaning": "every day"
+      },
+      {
+        "word": "毎週",
+        "reading": "まいしゅう",
+        "meaning": "every week"
+      },
+      {
+        "word": "毎年",
+        "reading": "まいとし",
+        "meaning": "every year"
+      }
+    ],
+    "description": "毎 originally meant 'mother', but now means 'every', as a mother cares for every child.",
+    "memoryHint": "Mother caring for every child.",
+    "mnemonic": "Mother figure = cares for every one.",
+    "composition": "毋 + 母",
+    "similarKanji": ["海", "敏"],
+    "tags": ["time", "frequency", "basic"]
+  },
+  {
+    "id": 79,
+    "kanji": "週",
+    "meaning": "week",
+    "strokes": 11,
+    "radical": "辶",
+    "jlpt": "N5",
+    "frequency": 79,
+    "onyomi": ["シュウ"],
+    "kunyomi": ["しゅう"],
+    "examples": [
+      {
+        "word": "今週",
+        "reading": "こんしゅう",
+        "meaning": "this week"
+      },
+      {
+        "word": "週末",
+        "reading": "しゅうまつ",
+        "meaning": "weekend"
+      },
+      {
+        "word": "毎週",
+        "reading": "まいしゅう",
+        "meaning": "every week"
+      }
+    ],
+    "description": "週 combines enclosure (周) and movement (辶), representing a cycle that moves around.",
+    "memoryHint": "Cycle moving around = week.",
+    "mnemonic": "Enclosure (周) + movement (辶) = weekly cycle.",
+    "composition": "周 + 辶",
+    "similarKanji": ["週", "周"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 80,
+    "kanji": "早",
+    "meaning": "early / fast",
+    "strokes": 6,
+    "radical": "日",
+    "jlpt": "N5",
+    "frequency": 80,
+    "onyomi": ["ソウ", "サッ"],
+    "kunyomi": ["はや"],
+    "examples": [
+      {
+        "word": "早い",
+        "reading": "はやい",
+        "meaning": "early / fast"
+      },
+      {
+        "word": "朝早く",
+        "reading": "あさはやく",
+        "meaning": "early in the morning"
+      },
+      {
+        "word": "早朝",
+        "reading": "そうちょう",
+        "meaning": "early morning"
+      }
+    ],
+    "description": "早 shows the sun (日) rising over the horizon (十), representing early morning.",
+    "memoryHint": "Sun rising early.",
+    "mnemonic": "Sun (日) + horizon (十) = early.",
+    "composition": "日 + 十",
+    "similarKanji": ["旱", "章"],
+    "tags": ["time", "speed", "basic"]
+  },
+  {
+    "id": 81,
+    "kanji": "朝",
+    "meaning": "morning",
+    "strokes": 12,
+    "radical": "月",
+    "jlpt": "N5",
+    "frequency": 81,
+    "onyomi": ["チョウ"],
+    "kunyomi": ["あさ"],
+    "examples": [
+      {
+        "word": "朝",
+        "reading": "あさ",
+        "meaning": "morning"
+      },
+      {
+        "word": "朝ご飯",
+        "reading": "あさごはん",
+        "meaning": "breakfast"
+      },
+      {
+        "word": "朝日",
+        "reading": "あさひ",
+        "meaning": "morning sun"
+      }
+    ],
+    "description": "朝 shows the sun (日) rising between plants (草) and moon (月) still visible.",
+    "memoryHint": "Sun rising, moon still visible = morning.",
+    "mnemonic": "Sun (日) + moon (月) + plants (草) = morning.",
+    "composition": "龺 + 月",
+    "similarKanji": ["潮", "韓"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 82,
+    "kanji": "昼",
+    "meaning": "noon / daytime",
+    "strokes": 9,
+    "radical": "日",
+    "jlpt": "N5",
+    "frequency": 82,
+    "onyomi": ["チュウ"],
+    "kunyomi": ["ひる"],
+    "examples": [
+      {
+        "word": "昼",
+        "reading": "ひる",
+        "meaning": "noon / daytime"
+      },
+      {
+        "word": "昼ご飯",
+        "reading": "ひるごはん",
+        "meaning": "lunch"
+      },
+      {
+        "word": "昼間",
+        "reading": "ひるま",
+        "meaning": "daytime"
+      }
+    ],
+    "description": "昼 shows the sun (日) at its highest point (尺), representing noon.",
+    "memoryHint": "Sun at highest point = noon.",
+    "mnemonic": "Sun (日) + highest (尺) = noon.",
+    "composition": "尺 + 日",
+    "similarKanji": ["書", "画"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 83,
+    "kanji": "夜",
+    "meaning": "night",
+    "strokes": 8,
+    "radical": "夕",
+    "jlpt": "N5",
+    "frequency": 83,
+    "onyomi": ["ヤ"],
+    "kunyomi": ["よる", "よ"],
+    "examples": [
+      {
+        "word": "夜",
+        "reading": "よる",
+        "meaning": "night"
+      },
+      {
+        "word": "今夜",
+        "reading": "こんや",
+        "meaning": "tonight"
+      },
+      {
+        "word": "夜中",
+        "reading": "よなか",
+        "meaning": "middle of the night"
+      }
+    ],
+    "description": "夜 shows a person (イ) under evening sky (夕) with dots representing stars.",
+    "memoryHint": "Person under evening sky with stars.",
+    "mnemonic": "Evening (夕) + person (イ) + stars = night.",
+    "composition": "亠 + イ + 夕 + 丶",
+    "similarKanji": ["液", "腋"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 84,
+    "kanji": "東",
+    "meaning": "east",
+    "strokes": 8,
+    "radical": "木",
+    "jlpt": "N5",
+    "frequency": 84,
+    "onyomi": ["トウ"],
+    "kunyomi": ["ひがし"],
+    "examples": [
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "meaning": "east"
+      },
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "meaning": "Tokyo"
+      },
+      {
+        "word": "東洋",
+        "reading": "とうよう",
+        "meaning": "Orient / East Asia"
+      }
+    ],
+    "description": "東 shows the sun (日) rising through trees (木), representing east.",
+    "memoryHint": "Sun rising through trees = east.",
+    "mnemonic": "Sun (日) through trees (木) = east.",
+    "composition": "木 + 日",
+    "similarKanji": ["車", "束"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 85,
+    "kanji": "西",
+    "meaning": "west",
+    "strokes": 6,
+    "radical": "襾",
+    "jlpt": "N5",
+    "frequency": 85,
+    "onyomi": ["セイ", "サイ"],
+    "kunyomi": ["にし"],
+    "examples": [
+      {
+        "word": "西",
+        "reading": "にし",
+        "meaning": "west"
+      },
+      {
+        "word": "西洋",
+        "reading": "せいよう",
+        "meaning": "the West / Western countries"
+      },
+      {
+        "word": "関西",
+        "reading": "かんさい",
+        "meaning": "Kansai region"
+      }
+    ],
+    "description": "西 shows a bird settling in its nest at sunset, representing west where the sun sets.",
+    "memoryHint": "Bird in nest at sunset = west.",
+    "mnemonic": "Bird settling = west (sunset).",
+    "composition": "一 + 口 + 儿",
+    "similarKanji": ["要", "票"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 86,
+    "kanji": "南",
+    "meaning": "south",
+    "strokes": 9,
+    "radical": "十",
+    "jlpt": "N5",
+    "frequency": 86,
+    "onyomi": ["ナン"],
+    "kunyomi": ["みなみ"],
+    "examples": [
+      {
+        "word": "南",
+        "reading": "みなみ",
+        "meaning": "south"
+      },
+      {
+        "word": "南アメリカ",
+        "reading": "みなみアメリカ",
+        "meaning": "South America"
+      },
+      {
+        "word": "南東",
+        "reading": "なんとう",
+        "meaning": "southeast"
+      }
+    ],
+    "description": "南 shows a house facing south with plants growing well in the sunlight.",
+    "memoryHint": "House facing sunny direction = south.",
+    "mnemonic": "House with plants = south (sunny).",
+    "composition": "十 + 冂 + 羊",
+    "similarKanji": ["献", "楠"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 87,
+    "kanji": "北",
+    "meaning": "north",
+    "strokes": 5,
+    "radical": "匕",
+    "jlpt": "N5",
+    "frequency": 87,
+    "onyomi": ["ホク"],
+    "kunyomi": ["きた"],
+    "examples": [
+      {
+        "word": "北",
+        "reading": "きた",
+        "meaning": "north"
+      },
+      {
+        "word": "北アメリカ",
+        "reading": "きたアメリカ",
+        "meaning": "North America"
+      },
+      {
+        "word": "東北",
+        "reading": "とうほく",
+        "meaning": "northeast"
+      }
+    ],
+    "description": "北 shows two people back to back, as north is the opposite of south.",
+    "memoryHint": "Two people back to back = opposite directions (north vs south).",
+    "mnemonic": "Back to back = north (opposite of south).",
+    "composition": "匕 + 匕",
+    "similarKanji": ["比", "兆"],
+    "tags": ["direction", "basic"]
+  },
+  {
+    "id": 88,
+    "kanji": "白",
+    "meaning": "white",
+    "strokes": 5,
+    "radical": "白",
+    "jlpt": "N5",
+    "frequency": 88,
+    "onyomi": ["ハク", "ビャク"],
+    "kunyomi": ["しろ", "しら"],
+    "examples": [
+      {
+        "word": "白い",
+        "reading": "しろい",
+        "meaning": "white"
+      },
+      {
+        "word": "白人",
+        "reading": "はくじん",
+        "meaning": "white person / Caucasian"
+      },
+      {
+        "word": "明白",
+        "reading": "めいはく",
+        "meaning": "clear / obvious"
+      }
+    ],
+    "description": "白 shows the sun rising with a beam of light, representing whiteness.",
+    "memoryHint": "Beam of sunlight = white.",
+    "mnemonic": "Sunbeam = white.",
+    "composition": "白 radical",
+    "similarKanji": ["日", "百"],
+    "tags": ["color", "basic"]
+  },
+  {
+    "id": 89,
+    "kanji": "黒",
+    "meaning": "black",
+    "strokes": 11,
+    "radical": "黑",
+    "jlpt": "N5",
+    "frequency": 89,
+    "onyomi": ["コク"],
+    "kunyomi": ["くろ"],
+    "examples": [
+      {
+        "word": "黒い",
+        "reading": "くろい",
+        "meaning": "black"
+      },
+      {
+        "word": "黒板",
+        "reading": "こくばん",
+        "meaning": "blackboard"
+      },
+      {
+        "word": "黒人",
+        "reading": "こくじん",
+        "meaning": "black person"
+      }
+    ],
+    "description": "黒 shows a chimney with soot, representing black color.",
+    "memoryHint": "Chimney with soot = black.",
+    "mnemonic": "Chimney smoke = black.",
+    "composition": "黒 radical",
+    "similarKanji": ["墨", "黙"],
+    "tags": ["color", "basic"]
+  },
+  {
+    "id": 90,
+    "kanji": "赤",
+    "meaning": "red",
+    "strokes": 7,
+    "radical": "赤",
+    "jlpt": "N5",
+    "frequency": 90,
+    "onyomi": ["セキ", "シャク"],
+    "kunyomi": ["あか"],
+    "examples": [
+      {
+        "word": "赤い",
+        "reading": "あかい",
+        "meaning": "red"
+      },
+      {
+        "word": "赤ちゃん",
+        "reading": "あかちゃん",
+        "meaning": "baby"
+      },
+      {
+        "word": "赤道",
+        "reading": "せきどう",
+        "meaning": "equator"
+      }
+    ],
+    "description": "赤 shows fire (火) over earth (土), as red clay is baked by fire.",
+    "memoryHint": "Fire over earth = red (like fired clay).",
+    "mnemonic": "Fire (火) + earth (土) = red.",
+    "composition": "土 + 火",
+    "similarKanji": ["赦", "赧"],
+    "tags": ["color", "basic"]
+  },
+  {
+    "id": 91,
+    "kanji": "青",
+    "meaning": "blue / green",
+    "strokes": 8,
+    "radical": "青",
+    "jlpt": "N5",
+    "frequency": 91,
+    "onyomi": ["セイ", "ショウ"],
+    "kunyomi": ["あお"],
+    "examples": [
+      {
+        "word": "青い",
+        "reading": "あおい",
+        "meaning": "blue / green"
+      },
+      {
+        "word": "青年",
+        "reading": "せいねん",
+        "meaning": "youth / young man"
+      },
+      {
+        "word": "青空",
+        "reading": "あおぞら",
+        "meaning": "blue sky"
+      }
+    ],
+    "description": "青 shows plants (生) growing under clear sky (月), representing blue/green.",
+    "memoryHint": "Plants under blue sky.",
+    "mnemonic": "Plants (生) + moon/sky (月) = blue/green.",
+    "composition": "生 + 月",
+    "similarKanji": ["清", "晴"],
+    "tags": ["color", "basic"]
+  },
+  {
+    "id": 92,
+    "kanji": "色",
+    "meaning": "color",
+    "strokes": 6,
+    "radical": "色",
+    "jlpt": "N5",
+    "frequency": 92,
+    "onyomi": ["ショク", "シキ"],
+    "kunyomi": ["いろ"],
+    "examples": [
+      {
+        "word": "色",
+        "reading": "いろ",
+        "meaning": "color"
+      },
+      {
+        "word": "黄色",
+        "reading": "きいろ",
+        "meaning": "yellow"
+      },
+      {
+        "word": "景色",
+        "reading": "けしき",
+        "meaning": "scenery / landscape"
+      }
+    ],
+    "description": "色 shows a person (巴) bending over to look at something (ク), examining its color.",
+    "memoryHint": "Person examining something's color.",
+    "mnemonic": "Person examining = color.",
+    "composition": "ク + 巴",
+    "similarKanji": ["巴", "包"],
+    "tags": ["color", "basic"]
+  },
+  {
+    "id": 93,
+    "kanji": "好",
+    "meaning": "like / fond",
+    "strokes": 6,
+    "radical": "女",
+    "jlpt": "N5",
+    "frequency": 93,
+    "onyomi": ["コウ"],
+    "kunyomi": ["す", "この"],
+    "examples": [
+      {
+        "word": "好き",
+        "reading": "すき",
+        "meaning": "like / fond of"
+      },
+      {
+        "word": "好意",
+        "reading": "こうい",
+        "meaning": "goodwill / favor"
+      },
+      {
+        "word": "友好",
+        "reading": "ゆうこう",
+        "meaning": "friendship"
+      }
+    ],
+    "description": "好 combines woman (女) and child (子), as women naturally like children.",
+    "memoryHint": "Woman with child = liking.",
+    "mnemonic": "Woman (女) + child (子) = like.",
+    "composition": "女 + 子",
+    "similarKanji": ["仔", "孝"],
+    "tags": ["emotion", "basic"]
+  },
+  {
+    "id": 94,
+    "kanji": "悪",
+    "meaning": "bad / evil",
+    "strokes": 11,
+    "radical": "心",
+    "jlpt": "N5",
+    "frequency": 94,
+    "onyomi": ["アク", "オ"],
+    "kunyomi": ["わる"],
+    "examples": [
+      {
+        "word": "悪い",
+        "reading": "わるい",
+        "meaning": "bad"
+      },
+      {
+        "word": "悪口",
+        "reading": "わるくち",
+        "meaning": "insult / bad mouth"
+      },
+      {
+        "word": "最悪",
+        "reading": "さいあく",
+        "meaning": "worst"
+      }
+    ],
+    "description": "悪 combines heart (心) and not good (亜), representing bad feelings.",
+    "memoryHint": "Heart feeling not good = bad.",
+    "mnemonic": "Not good (亜) + heart (心) = bad.",
+    "composition": "亜 + 心",
+    "similarKanji": ["亜", "壱"],
+    "tags": ["quality", "emotion", "basic"]
+  },
+  {
+    "id": 95,
+    "kanji": "新",
+    "meaning": "new",
+    "strokes": 13,
+    "radical": "斤",
+    "jlpt": "N5",
+    "frequency": 95,
+    "onyomi": ["シン"],
+    "kunyomi": ["あたら", "あら", "にい"],
+    "examples": [
+      {
+        "word": "新しい",
+        "reading": "あたらしい",
+        "meaning": "new"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "meaning": "newspaper"
+      },
+      {
+        "word": "新年",
+        "reading": "しんねん",
+        "meaning": "New Year"
+      }
+    ],
+    "description": "新 combines stand (立), tree (木), and axe (斤), representing cutting down a tree to start something new.",
+    "memoryHint": "Cutting tree to make something new.",
+    "mnemonic": "Stand (立) + tree (木) + axe (斤) = new.",
+    "composition": "立 + 木 + 斤",
+    "similarKanji": ["親", "析"],
+    "tags": ["time", "quality", "basic"]
+  },
+  {
+    "id": 96,
+    "kanji": "旧",
+    "meaning": "old / former",
+    "strokes": 5,
+    "radical": "日",
+    "jlpt": "N5",
+    "frequency": 96,
+    "onyomi": ["キュウ"],
+    "kunyomi": ["ふる"],
+    "examples": [
+      {
+        "word": "旧い",
+        "reading": "ふるい",
+        "meaning": "old"
+      },
+      {
+        "word": "旧正月",
+        "reading": "きゅうしょうがつ",
+        "meaning": "Chinese New Year"
+      },
+      {
+        "word": "旧友",
+        "reading": "きゅうゆう",
+        "meaning": "old friend"
+      }
+    ],
+    "description": "旧 shows a bird (隹) perched on something old.",
+    "memoryHint": "Bird on old perch.",
+    "mnemonic": "Bird on perch = old/former.",
+    "composition": "丨 + 日",
+    "similarKanji": ["白", "由"],
+    "tags": ["time", "basic"]
+  },
+  {
+    "id": 97,
+    "kanji": "強",
+    "meaning": "strong",
+    "strokes": 11,
+    "radical": "弓",
+    "jlpt": "N5",
+    "frequency": 97,
+    "onyomi": ["キョウ", "ゴウ"],
+    "kunyomi": ["つよ"],
+    "examples": [
+      {
+        "word": "強い",
+        "reading": "つよい",
+        "meaning": "strong"
+      },
+      {
+        "word": "強調",
+        "reading": "きょうちょう",
+        "meaning": "emphasis"
+      },
+      {
+        "word": "強制",
+        "reading": "きょうせい",
+        "meaning": "compulsion / force"
+      }
+    ],
+    "description": "強 combines insect (虫) and bow (弓), as some insects have strong resilience.",
+    "memoryHint": "Insect with bow = strong.",
+    "mnemonic": "Insect (虫) + bow (弓) = strong.",
+    "composition": "弓 + 虽",
+    "similarKanji": ["弱", "張"],
+    "tags": ["quality", "basic"]
+  },
+  {
+    "id": 98,
+    "kanji": "弱",
+    "meaning": "weak",
+    "strokes": 10,
+    "radical": "弓",
+    "jlpt": "N5",
+    "frequency": 98,
+    "onyomi": ["ジャク"],
+    "kunyomi": ["よわ"],
+    "examples": [
+      {
+        "word": "弱い",
+        "reading": "よわい",
+        "meaning": "weak"
+      },
+      {
+        "word": "弱点",
+        "reading": "じゃくてん",
+        "meaning": "weak point"
+      },
+      {
+        "word": "弱虫",
+        "reading": "よわむし",
+        "meaning": "coward"
+      }
+    ],
+    "description": "弱 shows two weak bows (弓弓) with feathers (冫), representing weakness.",
+    "memoryHint": "Two weak bows.",
+    "mnemonic": "Two weak bows (弓弓) = weak.",
+    "composition": "弓 + 弓 + 冫",
+    "similarKanji": ["強", "張"],
+    "tags": ["quality", "basic"]
+  },
+  {
+    "id": 99,
+    "kanji": "病",
+    "meaning": "illness / sick",
+    "strokes": 10,
+    "radical": "疒",
+    "jlpt": "N5",
+    "frequency": 99,
+    "onyomi": ["ビョウ", "ヘイ"],
+    "kunyomi": ["やまい", "や"],
+    "examples": [
+      {
+        "word": "病気",
+        "reading": "びょうき",
+        "meaning": "illness / disease"
+      },
+      {
+        "word": "病人",
+        "reading": "びょうにん",
+        "meaning": "sick person / patient"
+      },
+      {
+        "word": "病院",
+        "reading": "びょういん",
+        "meaning": "hospital"
+      }
+    ],
+    "description": "病 shows a sick person (丙) in bed (疒).",
+    "memoryHint": "Person sick in bed.",
+    "mnemonic": "Sick bed (疒) + person (丙) = illness.",
+    "composition": "疒 + 丙",
+    "similarKanji": ["症", "痛"],
+    "tags": ["health", "basic"]
+  },
+  {
+    "id": 100,
+    "kanji": "院",
+    "meaning": "institution / hospital",
+    "strokes": 10,
+    "radical": "阝",
+    "jlpt": "N5",
+    "frequency": 100,
+    "onyomi": ["イン"],
+    "kunyomi": ["いん"],
+    "examples": [
+      {
+        "word": "病院",
+        "reading": "びょういん",
+        "meaning": "hospital"
+      },
+      {
+        "word": "医院",
+        "reading": "いいん",
+        "meaning": "clinic / doctor's office"
+      },
+      {
+        "word": "入院",
+        "reading": "にゅういん",
+        "meaning": "hospitalization"
+      }
+    ],
+    "description": "院 combines building (阝) and complete (完), representing a complete building for an institution.",
+    "memoryHint": "Complete building = institution.",
+    "mnemonic": "Building (阝) + complete (完) = institution.",
+    "composition": "阝 + 完",
+    "similarKanji": ["完", "冠"],
+    "tags": ["building", "health", "basic"]
+  }
+]

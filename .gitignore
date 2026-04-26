@@ -1,0 +1,125 @@
+# ================================
+
+# Flutter / Dart / Pub
+
+# ================================
+
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Generated files
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# ================================
+
+# Android
+
+# ================================
+
+android/.gradle/
+android/app/build/
+android/local.properties
+android/key.properties
+
+# APK / AAB (avoid pushing builds)
+
+*.apk
+*.aab
+
+# ================================
+
+# iOS
+
+# ================================
+
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/engine/
+ios/ServiceDefinitions.json
+
+# ================================
+
+# macOS / Linux / Windows
+
+# ================================
+
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# ================================
+
+# IDEs & Editors
+
+# ================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+.vscode/
+
+# ================================
+
+# Logs & Temp
+
+# ================================
+
+*.log
+*.tmp
+*.swp
+*.swo
+*.class
+*.pyc
+
+# ================================
+
+# Version Control / Misc
+
+# ================================
+
+.svn/
+.atom/
+.build/
+.buildlog/
+.history
+.swiftpm/
+migrate_working_dir/
+
+# ================================
+
+# Environment / Secrets
+
+# ================================
+
+.env
+
+# ================================
+
+# Obfuscation & Symbols
+
+# ================================
+
+app.*.symbols
+app.*.map.json
+
+# ================================
+
+# Android Build Outputs
+
+# ================================
+
+/android/app/debug
+/android/app/profile
+/android/app/release
