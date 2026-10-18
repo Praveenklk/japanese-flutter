@@ -1,10 +1,10 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart'; // ✅ ADD THIS
 
 import '../models/quiz_question.dart';
 import '../core/api/api_service.dart';
 import '../core/api/api_endpoints.dart';
+import '../features/quiz/data/quiz_data.dart' hide QuizQuestion;
 
 class QuizProvider extends ChangeNotifier {
   List<QuizQuestion> _questions = [];
@@ -98,12 +98,30 @@ class QuizProvider extends ChangeNotifier {
 
       /// QUIZ
       for (var q in quizData) {
+        final options = List<String>.from(q["options"] ?? [])
+            .map((e) => e.trim())
+            .where((e) => e.isNotEmpty)
+            .toList();
+        final rawQuestion = (q["question"] ?? "").toString().trim();
+        final rawAnswer = (q["answer"] ?? "").toString().trim();
+
+        if (rawQuestion.isEmpty || options.isEmpty) continue;
+
+        String correctAnswer = rawAnswer;
+        if (rawAnswer.length == 1 &&
+            rawAnswer.toUpperCase().codeUnitAt(0) >= 65 &&
+            rawAnswer.toUpperCase().codeUnitAt(0) < 65 + options.length) {
+          correctAnswer = options[rawAnswer.toUpperCase().codeUnitAt(0) - 65];
+        } else if (!options.contains(rawAnswer) && options.isNotEmpty) {
+          correctAnswer = options.first;
+        }
+
         generatedQuestions.add(
           QuizQuestion(
-            question: q["question"] ?? "",
-            options: List<String>.from(q["options"] ?? []),
-            correctAnswer: q["answer"] ?? "",
-            hint: null,
+            question: rawQuestion,
+            options: options,
+            correctAnswer: correctAnswer,
+            hint: q["reading"]?.toString() ?? q["hint"]?.toString(),
           ),
         );
       }
@@ -191,8 +209,21 @@ class QuizProvider extends ChangeNotifier {
         );
       }
 
-      /// ❌ REMOVE SHUFFLE (IMPORTANT)
-      // generatedQuestions.shuffle();
+      /// Fallback to built-in offline questions if API generated 0 questions
+      if (generatedQuestions.isEmpty) {
+        final fallbackQuestions =
+            QuizData.getQuestions(level, category, count: questionCount);
+        for (var fb in fallbackQuestions) {
+          generatedQuestions.add(
+            QuizQuestion(
+              question: fb.question,
+              options: fb.options,
+              correctAnswer: fb.correctAnswer,
+              hint: fb.hint,
+            ),
+          );
+        }
+      }
 
       _questions = generatedQuestions.take(questionCount).toList();
 
@@ -208,6 +239,24 @@ class QuizProvider extends ChangeNotifier {
 
     } catch (e) {
       print("❌ QUIZ ERROR => $e");
+      if (_questions.isEmpty) {
+        final fallbackQuestions =
+            QuizData.getQuestions(level, category, count: questionCount);
+        _questions = fallbackQuestions
+            .map((fb) => QuizQuestion(
+                  question: fb.question,
+                  options: fb.options,
+                  correctAnswer: fb.correctAnswer,
+                  hint: fb.hint,
+                ))
+            .toList();
+        _isQuizActive = true;
+        _isQuizComplete = false;
+        _selectedAnswer = null;
+        _isCorrect = null;
+        _timeRemaining = 30;
+        _showHint = false;
+      }
     } finally {
       _isLoading = false;
       notifyListeners();
