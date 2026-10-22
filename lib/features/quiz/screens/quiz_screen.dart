@@ -439,6 +439,20 @@ class _SakuraTopBar extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(width: 6),
+          GestureDetector(
+            onTap: () => quizProvider.startQuiz(level, category, resetProgress: true),
+            child: Container(
+              width: 36,
+              height: 36,
+              decoration: BoxDecoration(
+                color: theme.cardBg,
+                borderRadius: BorderRadius.circular(12),
+                boxShadow: [BoxShadow(color: theme.shadowColor, blurRadius: 10, offset: const Offset(0, 3))],
+              ),
+              child: Icon(Icons.refresh_rounded, size: 18, color: theme.primary),
+            ),
+          ),
         ],
       ),
     );

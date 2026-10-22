@@ -120,6 +120,7 @@ class QuizResultScreen extends StatelessWidget {
                           quizProvider.startQuiz(
                             quizProvider.currentLevel,
                             quizProvider.currentCategory,
+                            resetProgress: true,
                           );
                         },
                       ).animate().fadeIn(delay: 330.ms, duration: 350.ms).slideY(begin: 0.06, end: 0),

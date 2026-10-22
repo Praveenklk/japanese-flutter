@@ -57,33 +57,56 @@ class QuizProvider extends ChangeNotifier {
 
   int get totalQuestions => _questions.length;
 
-  /// 🔥 SAVE INDEX
+  /// 🔥 SAVE INDEX (with today's date)
   Future<void> _saveIndex() async {
     final prefs = await SharedPreferences.getInstance();
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    await prefs.setString('quiz_saved_date', today);
     await prefs.setInt('quiz_index', _currentQuestionIndex);
   }
 
-  /// 🔥 LOAD INDEX
+  /// 🔥 LOAD INDEX (only if saved on the same day and within bounds)
   Future<void> _loadIndex() async {
     final prefs = await SharedPreferences.getInstance();
-    _currentQuestionIndex = prefs.getInt('quiz_index') ?? 0;
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    final savedDate = prefs.getString('quiz_saved_date');
+    if (savedDate == today) {
+      final savedIndex = prefs.getInt('quiz_index') ?? 0;
+      if (savedIndex < _questions.length) {
+        _currentQuestionIndex = savedIndex;
+        return;
+      }
+    }
+    // New day or quiz previously finished: start from question 0!
+    _currentQuestionIndex = 0;
+    await _clearIndex();
   }
 
   /// 🔥 CLEAR INDEX
   Future<void> _clearIndex() async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.remove('quiz_index');
+    await prefs.remove('quiz_saved_date');
   }
 
   /// 🔥 START QUIZ
   Future<void> startQuiz(String level, String category,
-      {int questionCount = 30}) async {
+      {int questionCount = 30, bool resetProgress = false}) async {
     try {
       _isLoading = true;
+      _score = 0;
+      _streakCount = 0;
+      _selectedAnswer = null;
+      _isCorrect = null;
+      _isQuizComplete = false;
       notifyListeners();
 
       _currentLevel = level;
       _currentCategory = category;
+
+      if (resetProgress) {
+        await _clearIndex();
+      }
 
       final response = await ApiService.get(ApiEndpoints.dailyQuiz);
 
@@ -209,6 +232,21 @@ class QuizProvider extends ChangeNotifier {
         );
       }
 
+      // If category is Hiragana or Katakana, use local kana questions
+      final cat = category.toLowerCase();
+      if (cat.contains('hiragana') || cat.contains('katakana')) {
+        final fallbackQuestions =
+            QuizData.getQuestions(level, category, count: questionCount);
+        generatedQuestions = fallbackQuestions
+            .map((fb) => QuizQuestion(
+                  question: fb.question,
+                  options: fb.options,
+                  correctAnswer: fb.correctAnswer,
+                  hint: fb.hint,
+                ))
+            .toList();
+      }
+
       /// Fallback to built-in offline questions if API generated 0 questions
       if (generatedQuestions.isEmpty) {
         final fallbackQuestions =
@@ -225,10 +263,16 @@ class QuizProvider extends ChangeNotifier {
         }
       }
 
+      // Dynamic shuffle so each quiz session has a fresh question order
+      generatedQuestions.shuffle();
       _questions = generatedQuestions.take(questionCount).toList();
 
-      /// 🔥 LOAD PREVIOUS INDEX
-      await _loadIndex();
+      if (resetProgress) {
+        _currentQuestionIndex = 0;
+      } else {
+        /// 🔥 LOAD PREVIOUS INDEX
+        await _loadIndex();
+      }
 
       _isQuizActive = true;
       _isQuizComplete = false;
